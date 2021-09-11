@@ -1,0 +1,226 @@
+:root {
+    --line-height: 1.7;
+    --primary-color: #f65e39;
+    --heightHeader: 80px;
+    --backGroundSign: linear-gradient(90deg, #f65e38 0, #f68a39 51%, #f65e38);
+}
+
+svg.logo {
+    transition: fill 0.3s;
+}
+svg.logo:hover {
+    fill: #f65e39;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.25;
+}
+
+/* =============================== Default Classes =============================== */
+.disabled {
+    opacity: 0.5;
+    border-color: #ebeef0 !important;
+    cursor: not-allowed !important;
+}
+.disabled:hover i {
+    color: #717273 !important;
+}
+
+.displayBlock {
+    display: block !important;
+}
+
+.displayFlex {
+    display: flex !important;
+}
+
+.displayNone {
+    display: none !important;
+}
+
+/* Responsive */
+/* PC */
+@media (min-width: 1024px) {
+    .displayBlock_PC {
+        display: block !important;
+    }
+
+    .displayFlex_PC {
+        display: flex !important;
+    }
+
+    .displayNone_PC {
+        display: none !important;
+    }
+}
+
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    .displayBlock_TB-MB {
+        display: block !important;
+    }
+
+    .displayFlex_TB-MB {
+        display: flex !important;
+    }
+
+    .displayNone_TB-MB {
+        display: none !important;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+}
+
+/* ---------------------- */
+.boxShadow {
+    box-shadow: inset 0 0 0 2px rgb(0 0 0 / 14%);
+    border-radius: 5px;
+}
+
+@keyframes chooseFlagIn {
+    from {
+        opacity: 0;
+        transform: translateY(10%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes chooseFlagOut {
+    from {
+        /* opacity: 1; */
+        transform: translateY(0);
+    }
+    to {
+        /* opacity: 0; */
+        transform: translateY(10%);
+    }
+}
+
+@keyframes navBarSlideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes navBarSlideOut {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+/* =============================== Owl =============================== */
+/* ---------------- Owl nav ---------------- */
+.owl-nav {
+    margin-top: 0px !important;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+    outline: none;
+    width: 56px;
+    height: 56px;
+    background-color: #fff !important;
+    border-radius: 50%;
+    box-shadow: 0 0 7px -4px #000;
+    margin: 0;
+    transition: all 0.5s;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel .owl-nav button.owl-next:hover {
+    /*.owl-carousel .owl-nav  [class*=owl-]:hover*/
+    color: unset;
+    background-color: #fff;
+    box-shadow: 0 0 5px 0 rgb(246 94 57 / 50%);
+}
+
+.owl-carousel.owl-theme .owl-nav button.disabled {
+    cursor: pointer !important;
+    box-shadow: 0 0 7px -4px #000 !important;
+}
+
+.owl-carousel.owl-theme .owl-nav button.disabled:hover {
+    background-color: transparent;
+}
+
+.owl-carousel.owl-theme .owl-nav button.disabled:hover span {
+    color: #000;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover span,
+.owl-carousel .owl-nav button.owl-next:hover span {
+    color: var(--primary-color);
+    transition: all 0.5s;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover i,
+.owl-carousel .owl-nav button.owl-next:hover i {
+    color: var(--primary-color);
+    transition: all 0.5s;
+}
+
+.owl-carousel .owl-nav button.owl-prev span,
+.owl-carousel .owl-nav button.owl-next span {
+    font-size: 20px;
+}
+
+.owl-carousel .owl-nav button.owl-prev i,
+.owl-carousel .owl-nav button.owl-next i {
+    font-size: 12px;
+}
+
+.owl-nav .owl-prev {
+    top: 50%;
+    left: -32px;
+}
+
+.owl-nav .owl-next {
+    top: 50%;
+    right: -32px;
+}
+
+/* =============================== Basic =============================== */
+.qr-code {
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    padding: 12px;
+    margin-right: 12px;
+}
+
+.qr-code img {
+    width: 100%;
+}
+
+a.app-store,
+a.app-gallery,
+a.google-play {
+    display: block;
+}
+
+.app-store svg,
+.app-gallery svg,
+.google-play svg {
+    width: 100%;
+    height: auto;
+}
