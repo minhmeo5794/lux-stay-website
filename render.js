@@ -17,19 +17,19 @@ function Render() {
     var mainSlipSlideArray = [
         {
             id: 1,
-            image: 'https://minhmeo5794.github.io/lux-stay-website/assets/image/code30.png',
+            image: './assets/image/code30.png',
         },
         {
             id: 2,
-            image: 'https://minhmeo5794.github.io/lux-stay-website/assets/image/home.png',
+            image: './assets/image/home.png',
         },
         {
             id: 3,
-            image: 'https://minhmeo5794.github.io/lux-stay-website/assets/image/discount300k.png',
+            image: './assets/image/discount300k.png',
         },
         {
             id: 4,
-            image: 'https://minhmeo5794.github.io/lux-stay-website/assets/image/code20.png',
+            image: './assets/image/code20.png',
         },
     ];
 
@@ -66,13 +66,13 @@ function Render() {
             id: 1,
             name: 'Homestay',
             describe: 'Căn hộ dịch vụ & Biệt thự',
-            backgroundImage: '/assets/image/ghedai.png'
+            backgroundImage: 'https://minhmeo5794.github.io/lux-stay-website/assets/image/ghedai.png'
         },
         {
             id: 2,
             name: 'Vé tham quan',
             describe: 'Mua vé thật dễ dàng',
-            backgroundImage: '/assets/image/congvien.jpg'
+            backgroundImage: 'https://minhmeo5794.github.io/lux-stay-website/assets/image/congvien.jpg'
         },
     ];
 
