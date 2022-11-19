@@ -66,13 +66,13 @@ function Render() {
             id: 1,
             name: 'Homestay',
             describe: 'Căn hộ dịch vụ & Biệt thự',
-            backgroundImage: 'https://minhmeo5794.github.io/lux-stay-website/assets/image/ghedai.png'
+            backgroundImage: 'assets/image/ghedai.png'
         },
         {
             id: 2,
             name: 'Vé tham quan',
             describe: 'Mua vé thật dễ dàng',
-            backgroundImage: 'https://minhmeo5794.github.io/lux-stay-website/assets/image/congvien.jpg'
+            backgroundImage: 'assets/image/congvien.jpg'
         },
     ];
 
@@ -448,7 +448,7 @@ function Render() {
             `
                 <li class="option__welcome-item">
                     <a class="option__welcome-link" href="">
-                        <div class="item__welcome-bg-img" style="background-image: url(${item.backgroundImage})"></div>
+                        <div class="item__welcome-bg-img" style="background-image: url(https://minhmeo5794.github.io/lux-stay-website/${item.backgroundImage})"></div>
                         <div class="item__welcome-content">
                             <h4 class="item__welcome-name">${item.name}</h4>
                             <p class="item__welcome-text">${item.describe}</p>
