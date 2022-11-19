@@ -448,7 +448,9 @@ function Render() {
             `
                 <li class="option__welcome-item">
                     <a class="option__welcome-link" href="">
-                        <div class="item__welcome-bg-img" style="background-image: url(https://minhmeo5794.github.io/lux-stay-website/${item.backgroundImage})"></div>
+                        <div class="item__welcome-bg-img" ">
+                            <img src="${item.backgroundImage}" />
+                        </div>
                         <div class="item__welcome-content">
                             <h4 class="item__welcome-name">${item.name}</h4>
                             <p class="item__welcome-text">${item.describe}</p>

@@ -610,11 +610,16 @@ main#main_view {
 
 .option__welcome-link .item__welcome-bg-img {
     width: 100%;
-    padding-top: 55.55556%;
+    /* padding-top: 55.55556%; */
     background-color: #eee;
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
+    border-top-right-radius: 11px;
+    border-top-left-radius: 11px;
+}
+
+.option__welcome-link .item__welcome-bg-img img {
     border-top-right-radius: 11px;
     border-top-left-radius: 11px;
 }
