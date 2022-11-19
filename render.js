@@ -17,19 +17,19 @@ function Render() {
     var mainSlipSlideArray = [
         {
             id: 1,
-            image: './assets/image/code30.png',
+            image: 'https://minhmeo5794.github.io/lux-stay-website/assets/image/code30.png',
         },
         {
             id: 2,
-            image: './assets/image/home.png',
+            image: 'https://minhmeo5794.github.io/lux-stay-website/assets/image/home.png',
         },
         {
             id: 3,
-            image: './assets/image/discount300k.png',
+            image: 'https://minhmeo5794.github.io/lux-stay-website/assets/image/discount300k.png',
         },
         {
             id: 4,
-            image: './assets/image/code20.png',
+            image: 'https://minhmeo5794.github.io/lux-stay-website/assets/image/code20.png',
         },
     ];
 
